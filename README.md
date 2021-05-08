@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-![Codacy branch grade](https://img.shields.io/codacy/grade/https://github.com/kenjimaeda54/Pomodoro-Rect-Typescript/desenvolvedor)
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
