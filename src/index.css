@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body {
+    background-color: #232946;
+    font-size: 1.2em;
+    font-weight: normal;
+    transition: background-color 300 ms ease-in-out;
+}
+
+.pomodoro-timer {
+    background-color: #fffffe;
+    padding: 5vh;
+    line-height: 1vw;
+    width: 70vw;
+    margin: 10vh auto;
+}
+
+.pomodoro-timer h2 {
+    font-size: 1.1em;
+}
+
+.pomodoro-timer .timer {
+    margin: 5vh auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.pomodoro-timer .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2vh auto;
+    margin: 0vh -9vw;
+}
+
+.pomodoro-timer .button {
+    background-color: #232946;
+    width: 15%;
+    height: 5%;
+    padding: 2vw;
+    margin: 2vw;
+    border-radius: 2vw;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 300ms ease-in-out;
+}
+
+.working .button {
+    background-color: #eebbc3;
+    transition: background-color 300ms ease-in-out;
+}
+
+.working {
+    background-color: #eebbc3;
+    transition: background-color 300ms ease-in-out;
+}
